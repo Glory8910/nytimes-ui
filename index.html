@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+
+
+    <div class="container-fluid">
+        <nav class="navbar navbar-dark bg-dark">
+            <div>
+                <img class="titleimg" src="https://pbs.twimg.com/profile_images/1098244578472280064/gjkVMelR.png"
+                    alt="image" />
+
+                <h1>Nytimes</h1>
+
+            </div>
+
+
+
+        </nav>
+
+
+        <div class="navlinkscont">
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item ">
+                    <a class="nav-link  titlelinks"  aria-current="page" href="#home"><button
+                            class="btn btnwhite"><strong>HOME</strong></button></a>
+                </li>
+
+                <li class="nav-item" >
+                    <a class="nav-link titlelinks" href="#"><button class=" btn btnwhite"><strong  id="world" onclick="fetchdata(event)" >WORLD</strong></button></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link titlelinks" href="#"><button class=" btn btnwhite"><strong  id="politics" onclick="fetchdata(event)">POLITICS</strong></button></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link titlelinks" href="#"><button class=" btn btnwhite"><strong  id="magazine" onclick="fetchdata(event)">MAGAZINE</strong></button></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link titlelinks" href="#"><button class=" btn btnwhite"><strong id="technology" onclick="fetchdata(event)">TECHNOLOGY</strong></button></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link titlelinks" href="#"><button class=" btn btnwhite"><strong id="science" onclick="fetchdata(event)">SCIENCE</strong></button></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link titlelinks" href="#"><button class=" btn btnwhite"><strong id="health" onclick="fetchdata(event)">HEATLTH</strong></button></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link titlelinks" href="#"><button class=" btn btnwhite"><strong id="sports" onclick="fetchdata(event)">SPORTS</strong></button></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link titlelinks" href="#"><button class=" btn btnwhite"><strong id="arts" onclick="fetchdata(event)">ARTS</strong></button></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link titlelinks" href="#"><button class=" btn btnwhite"><strong id="fashion" onclick="fetchdata(event)">FASHION</strong></button></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link titlelinks" href="#"><button class="btn btnwhite"><strong id="food" onclick="fetchdata(event)">FOOD</strong></button></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link titlelinks" href="#"><button class="btn btnwhite"><strong id="travel" onclick="fetchdata(event)">TRAVEL</strong></button></a>
+                </li>
+
+
+            </ul>
+        </div>
+        <div id="displaybl"></div>
+
+       
+    </div>
+    <script src="config.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
